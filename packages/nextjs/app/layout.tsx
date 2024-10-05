@@ -6,10 +6,10 @@ import { getMetadata } from "~~/utils/scaffold-eth/getMetadata";
 
 export const metadata = getMetadata({
   title: "DeWine",
-  description: "RWA tokenization for wine industry",
+  description: "Crowdfunding for wine industry",
 });
 
-const ScaffoldEthApp = ({ children }: { children: React.ReactNode }) => {
+const DeWineApp = ({ children }: { children: React.ReactNode }) => {
   return (
     <html suppressHydrationWarning>
       <body>
@@ -21,4 +21,4 @@ const ScaffoldEthApp = ({ children }: { children: React.ReactNode }) => {
   );
 };
 
-export default ScaffoldEthApp;
+export default DeWineApp;
